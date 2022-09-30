@@ -1,0 +1,23 @@
+{
+  "name": "acmecountryclub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server.js",
+    "start:seed": "nodemon seed.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "sequelize": "^6.23.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
